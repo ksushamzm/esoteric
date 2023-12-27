@@ -1,0 +1,782 @@
+html, body {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  text-align: left;
+  font-size: 15px;
+  color: white;
+  font-family: "Sporting Grotesque RUS";
+}
+.sporting-grotesque-rus15, 
+.sporting-grotesque-rus13, 
+.uved, 
+.profile, 
+.logo2, 
+.logo1, 
+.olesya, 
+.ui-kit, 
+.sporting-grotesque-rus40, 
+.datar,
+.sporting-grotesque-rus25, 
+.datar2,  
+.data25 {
+  position: absolute;
+  line-height: 150%;
+  display: inline-block;
+}
+.text1{
+  position: absolute;
+  line-height: 150%;
+  display: inline-block;
+  top: 583px;
+  left: 101px;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  width: 310px;
+}
+.text2{
+  position: absolute;
+  line-height: 150%;
+  display: inline-block;
+  top: 970px;
+  left: 101px;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  width: 310px;
+  text-decoration: underline;
+}
+.sporting-grotesque-rus15 {
+  top: 532px;
+  left: 682px;
+  letter-spacing: 0.1em;
+  width: 400px;
+}
+.sporting-grotesque-rus13 {
+  top: 583px;
+  left: 682px;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  width: 310px;
+}
+.uved {
+  top: 1785px;
+  left: 418px;
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+}
+.profile {
+  top: 1787px;
+  left: 599px;
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+}
+.logofon {
+  top: 0px;
+  left: 0px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  width: 224px;
+  height: 103px;
+  top: 1785px;
+  left: 104px;
+  width: 223px;
+  height: 102px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 160px;
+  height: 38px;
+  top: 1785px;
+  left: 104px;
+  width: 223px;
+  height: 102px;
+  position: absolute;
+}
+.logo {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  right: 0;
+  
+}
+.logo2 {
+  top: 30pt;
+  left: 60pt;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.logo1 {
+  top: 23pt;
+  bottom: 0;
+  left: 20pt;
+  right: 76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.olesya {
+  top: 245px;
+  left: 101px;
+  width: 495px;
+  font-size: 40px;
+  height: 47px;
+}
+.ui-kit {
+  font-size: 40px;
+  height: 47px;
+  top: 60px;
+  left: calc(50% - 63px);
+  width: 125px;
+}
+.sporting-grotesque-rus40 {
+  font-size: 40px;
+  height: 47px;
+  top: 245px;
+  left: 682px;
+  width: 696px;
+}
+.datar {
+  top: 472px;
+  left: 101px;
+  width: 208px;
+  font-size: 20px;
+  height: 20px;
+}
+.sporting-grotesque-rus25 {
+  font-size: 20px;
+  height: 20px;
+  top: 477px;
+  left: 682px;
+  letter-spacing: 0.1em;
+  width: 491px;
+}
+.datar2 {
+  font-size: 20px;
+  height: 20px;
+  top: 849px;
+  left: 101px;
+  text-decoration: underline;
+  width: 208px;
+}
+.data25 {
+  top: 395px;
+  left: 101px;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  width: 249px;
+  height: 40px;
+}
+.sporting-grotesque-rus25-2 {
+  position: absolute;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+  display: inline-block;
+  height: 40px;
+  top: 402px;
+  left: 682px;
+  width: 682px;
+}
+.sporting-grotesque-rus30 {
+  position: absolute;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+  display: inline-block;
+  height: 40px;
+  top: 327px;
+  left: 682px;
+  width: 682px;
+  font-size: 30px;
+}
+.zagolovoktext, .zagolovokcveta, .zagolovokknopki, .zagolovokznachki, .setka {
+  position: absolute;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+  display: inline-block;
+  height: 40px;
+}
+.zagolovoktext {
+  top: 156px;
+  left: 670px;
+  width: 101px;
+}
+.zagolovokcveta {
+  top: 995px;
+  left: 672px;
+  width: 101px;
+}
+.zagolovokknopki {
+  top: 1242px;
+  left: calc(50% - 65px);
+  width: 130px;
+}
+.zagolovokznachki {
+  top: 2350px;
+  left: calc(50% - 250px);
+  width: 500px;
+}
+.natalnayatext, .natstrelka , .natalnayaknopka,
+ .sogl1, .sogl2, .greytext, .bluetext, .yellowtext, .purpletext, .whitetext, .greentext {
+  position: absolute;
+  line-height: 150%;
+  display: inline-block;
+}
+.natalnayatext {
+  top: 36px;
+  left: 103px;
+  width: 302px;
+  height: 29px;
+}
+.natstrelka {
+  top: 31px;
+  left: 884px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.natalnayaknopka {
+  top: 0px;
+  left: 0px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  width: 955px;
+  height: 103px;
+  top: 1304px;
+  left: 101px;
+  width: 954px;
+  height: 102px;
+  font-size: 30px;
+}
+.sogl1 {
+  top: 529px;
+  left: 101px;
+  width: 282px;
+  height: 16px;
+}
+.sogl2 {
+  top: 902px;
+  left: 101px;
+  text-decoration: underline;
+  width: 282px;
+  height: 16px;
+}
+.greytext {
+  top: 1182px;
+  left: 102px;
+  width: 98px;
+  height: 16px;
+}
+.bluetext {
+  left: 595px;
+  top: 1182px;
+  width: 98px;
+  height: 16px;
+}
+.yellowtext {
+  left: 842px;
+  top: 1182px;
+  width: 98px;
+  height: 16px;
+}
+.purpletext {
+  top: 1182px;
+  left: 348px;
+  width: 98px;
+  height: 16px;
+}
+.whitetext {
+  top: 1182px;
+  left: 224px;
+  width: 98px;
+  height: 16px;
+}
+.greentext, .orangetext, .pinktext, .redtext {
+  top: 1182px;
+  line-height: 150%;
+  display: inline-block;
+  width: 98px;
+  height: 16px;
+}
+.greentext {
+  left: 718px;
+}
+.pinktext {
+  position: absolute;
+  left: 471px;
+}
+.orangetext {
+  left: 965px;
+  position: absolute;
+}
+.redtext {
+  position: absolute;
+  top: 1182px;
+  left: 1089px;
+}
+.grey, .blue, .purple, 
+.yellow, .red, .white, .green, .pink, .orange {
+  position: absolute;
+  top: 1053px;
+  width: 102px;
+  height: 102px;
+}
+.grey {
+  left: 100px;
+  background-color: #838383;
+}
+.blue {
+  left: 597px;
+  background-color: #04a4de;
+}
+.purple {
+  left: 349px;
+  background-color: #6a62ac;
+}
+.yellow {
+  left: 844px;
+  background-color: #f7eb0c;
+}
+.red {
+  left: 1093px;
+  background-color: #e22523;
+}
+.white {
+  left: 225px;
+  background-color: white;
+}
+.green {
+  left: 721px;
+  background-color: #81b33e;
+}
+.pink {
+  left: 473px;
+  background-color: #ab5191;
+}
+.orange {
+  left: 969px;
+  background-color: #f49324;
+}
+.redaktfon, .drugiefon {
+  position: absolute;
+}
+.redaktfon {
+  top: 1940px;
+  left: 103px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  width: 488px;
+  height: 103px;
+}
+.drugiefon {
+  top: 0px;
+  left: 0px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  width: 488px;
+  height: 103px;
+  top: 2069px;
+  left: 104px;
+  width: 487px;
+  height: 102px;
+  font-size: 25px;
+}
+.redakttext, .drugie, .drugiestrelka {
+  position: absolute;
+}
+.redakttext {
+  top: 1976px;
+  left: 145px;
+  font-size: 25px;
+  line-height: 150%;
+  display: inline-block;
+  width: 374px;
+  height: 29px;
+}
+.drugie {
+  top: 36px;
+  left: 41px;
+  line-height: 150%;
+  display: inline-block;
+  width: 374px;
+  height: 29px;
+}
+.drugiestrelka {
+  top: 31px;
+  left: 403px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.kvadrat {
+  position: absolute;
+  border-left: 1px solid white;
+  box-sizing: border-box;
+  top: 0;
+  left: 387px;
+  width: 102px;
+  height: 102px;
+}
+.nikitatext{
+  top: 38px;
+  left: 30px;
+  line-height: 150%;
+  display: inline-block;
+  width: 303px;
+  height: 26px;
+  position: absolute;
+}
+.icon20 {
+  position: absolute;
+  top: 31px;
+  left: 420px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.nikita {
+  border: 1px solid white;
+  box-sizing: border-box;
+  position: absolute;
+  top: 2197px;
+  left: 104px;
+  width: 491px;
+  height: 102px;
+}
+.icon21 {
+  position: absolute;
+  top: 31px;
+  left: 884px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.textvybor {
+  top: 36px;
+  left: 103px;
+  line-height: 150%;
+  display: inline-block;
+  width: 374px;
+  height: 29px;
+  position: absolute;
+}
+.planety {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 950px;
+  height: 100px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+}
+.domatext {
+  position: absolute;
+  top: 138px;
+  left: 103px;
+  line-height: 150%;
+  display: inline-block;
+  width: 374px;
+  height: 29px;
+}
+.aspekty {
+  position: absolute;
+  width: 950px;
+  top: 204px;
+  left: 0;
+  height: 102px;
+  cursor: pointer;
+  border-top: 1px solid white;
+  box-sizing: border-box;
+}
+.vybor {
+  position: absolute;
+  width: 954px;
+  top: 1433px;
+  left: 101px;
+  height: 306px;
+  font-size: 25px;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+.sun {
+  position: absolute;
+  top: 2427px;
+  left: 104px;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.ui4{
+position: absolute;
+top: 2427px;
+left: 330px;
+width: 48px;
+height: 48px;
+object-fit: contain;
+}
+.moon, .ui3 {
+  position: absolute;
+  top: 2427px;
+  left: 189px;
+  width: 32px;
+  height: 46px;
+  object-fit: contain;
+}
+.ui3{
+  top: 2425px;
+  left: 258px;
+  width: 32px;
+  height: 51px;
+  object-fit: contain;
+}
+.ui5 {
+  position: absolute;
+  top: 2430px;
+  left: 396px;
+  width: 42px;
+  height: 41px;
+  object-fit: contain;
+}
+.ui6, .ui7 {
+  position: absolute;
+  top: 2424px;
+  left: 475px;
+  width: 40px;
+  height: 53px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.ui7{
+  left: 552px;
+  width: 29px;
+  object-fit: contain;
+}
+.ui8 {
+  position: absolute;
+  overflow: hidden;
+  top: 2427px;
+  left: 618px;
+  width: 41px;
+  height: 47px;
+  object-fit: contain;
+}
+.ui9 {
+  position: absolute;
+  top: 2424px;
+  left: 475px;
+  width: 40px;
+  height: 53px;
+  overflow: hidden;
+  left: 552px;
+  width: 29px;
+  top: 2427px;
+  left: 618px;
+  width: 41px;
+  height: 47px;
+  left: 696px;
+  width: 47px;
+}
+.ui10 {
+  top: 2428px;
+  left: 780px;
+  width: 36px;
+  height: 46px;
+  overflow: hidden;
+  position: absolute;
+  object-fit: cover;
+}
+.ava {
+  position: absolute;
+  object-fit: cover;
+  top: 2517px;
+  left: 104px;
+  border-radius: 50%;
+  width: 389px;
+  height: 389px;
+}
+.logob {
+  position: absolute;
+  object-fit: cover;
+  top: 2530px;
+  left: 524px;
+  width: 390px;
+  height: 389px;
+}
+.me {
+  position: relative;
+  left: 260px;
+  border-radius: 50%;
+  top: 2970px;
+  width: 87px;
+  height: 87px;
+  object-fit: cover;
+}
+.logosr {
+  position: absolute;
+  top: 2975px;
+  left: 676px;
+  width: 87px;
+  height: 87px;
+  object-fit: cover;
+}
+.logomini {
+  position: absolute;
+  object-fit: cover;
+  top: 3113px;
+  left: 701px;
+  width: 37px;
+  height: 37px;
+}
+.minizh {
+  position: absolute;
+  object-fit: cover;
+  top: 3113px;
+  left: 280px;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+}
+.inst {
+  position: absolute;
+  top: 2441px;
+  left: 1050px;
+  width: 27px;
+  height: 27px;
+  object-fit: cover;
+}
+.tg {
+  position: absolute;
+  top: 2441px;
+  left: 1050px;
+  width: 27px;
+  height: 27px;
+  object-fit: cover;
+  left: 1126px;
+}
+.kopi {
+  position: absolute;
+  top: 2441px;
+  left: 1050px;
+  width: 27px;
+  height: 27px;
+  object-fit: cover;
+  left: 1126px;
+  top: 2447px;
+  left: 1203px;
+  width: 14px;
+  height: 14px;
+}
+.lupa {
+  position: absolute;
+  object-fit: contain;
+  top: 2440px;
+  left: 1267px;
+  width: 28px;
+  height: 36px;
+  overflow: hidden;
+}
+.strelkav {
+  position: absolute;
+  object-fit: contain;
+  overflow: hidden;
+  top: 2434px;
+  left: 960px;
+  width: 40px;
+  height: 40px;
+}
+.sprelkap {
+  position: absolute;
+  overflow: hidden;
+  top: 2434px;
+  left: 960px;
+  width: 40px;
+  height: 40px;
+  left: 1345px;
+  object-fit: contain;
+}
+.imya_familia {
+  position: absolute;
+  left: 101px;
+  line-height: 150%;
+  display: inline-block;
+  top: 643px;
+  font-size: 40px;
+  text-decoration: underline;
+  width: 500px;
+  height: 47px;
+}
+.data1 {
+  position: absolute;
+  left: 101px;
+  line-height: 150%;
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  width: 249px;
+  height: 29px;
+  top: 723px;
+  text-decoration: underline;
+}
+.data2 {
+  position: absolute;
+  left: 101px;
+  line-height: 150%;
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  width: 249px;
+  height: 29px;
+  top: 329px;
+}
+.rossia {
+  position: absolute;
+  left: 101px;
+  line-height: 150%;
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  width: 249px;
+  height: 29px;
+  top: 329px;
+  top: 785px;
+  font-size: 25px;
+  text-decoration: underline;
+  width: 124px;
+  height: 31px;
+}
+.grid-12 {
+  position: absolute;
+  top: 2500pt;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 500vh;
+  width: 100vw;
+}
+.grid1 {
+  background: white;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  box-sizing: border-box;
+}
+.setka {
+  position: absolute;
+ top: 3250px;
+ left: 670px;
+width: 101px;
+}
