@@ -75,21 +75,9 @@ html, body {
   object-fit: cover;
 }
 .logofon {
-  top: 0px;
-  left: 0px;
   border: 1px solid white;
   box-sizing: border-box;
-  width: 224px;
-  height: 103px;
-  top: 1785px;
-  left: 104px;
-  width: 223px;
-  height: 102px;
   position: absolute;
-  top: 32px;
-  left: 32px;
-  width: 160px;
-  height: 38px;
   top: 1785px;
   left: 104px;
   width: 223px;
@@ -188,7 +176,6 @@ html, body {
 }
 .sporting-grotesque-rus30 {
   position: absolute;
-  font-size: 25px;
   letter-spacing: 0.1em;
   line-height: 150%;
   display: inline-block;
@@ -247,12 +234,8 @@ html, body {
   object-fit: cover;
 }
 .natalnayaknopka {
-  top: 0px;
-  left: 0px;
   border: 1px solid white;
   box-sizing: border-box;
-  width: 955px;
-  height: 103px;
   top: 1304px;
   left: 101px;
   width: 954px;
@@ -380,12 +363,8 @@ html, body {
   height: 103px;
 }
 .drugiefon {
-  top: 0px;
-  left: 0px;
   border: 1px solid white;
   box-sizing: border-box;
-  width: 488px;
-  height: 103px;
   top: 2069px;
   left: 104px;
   width: 487px;
@@ -577,13 +556,7 @@ object-fit: contain;
 }
 .ui9 {
   position: absolute;
-  top: 2424px;
-  left: 475px;
-  width: 40px;
-  height: 53px;
   overflow: hidden;
-  left: 552px;
-  width: 29px;
   top: 2427px;
   left: 618px;
   width: 41px;
@@ -670,10 +643,6 @@ object-fit: contain;
 }
 .kopi {
   position: absolute;
-  top: 2441px;
-  left: 1050px;
-  width: 27px;
-  height: 27px;
   object-fit: cover;
   left: 1126px;
   top: 2447px;
@@ -748,11 +717,7 @@ object-fit: contain;
   left: 101px;
   line-height: 150%;
   display: inline-block;
-  font-size: 30px;
   letter-spacing: 0.1em;
-  width: 249px;
-  height: 29px;
-  top: 329px;
   top: 785px;
   font-size: 25px;
   text-decoration: underline;
